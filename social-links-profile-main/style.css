@@ -1,0 +1,79 @@
+
+
+body {
+    background-color: hsl(0, 0%, 8%);
+    margin: auto;
+    width: 100%
+}
+
+.black-box {
+    margin: auto;
+    width: 18%;
+    background-color: hsl(0, 0%, 12%);
+    padding: 40px;
+    border-radius: 10px;
+    margin-top: 128px;
+    margin-bottom: 128px;
+}
+
+.image-div {
+    display: flex;
+    justify-content: center;
+}
+
+img {
+    width: 30%;
+    border-radius: 50%;
+}
+
+.name {
+    display: flex;
+    justify-content: center;
+    color: hsl(0, 0%, 100%);
+    font-size: 28px;
+    margin-bottom: 0;
+    font-weight: 600;
+}
+
+.job {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    color: hsl(75, 94%, 57%);
+    font-size: 16px;
+    margin-top: 5px;
+}
+
+p {
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 16px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.links-button {
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    background-color: hsl(0, 0%, 20%);
+    margin-bottom: 15px;
+    font-size: 18px;
+    color: hsl(0, 0%, 100%);
+    padding-block: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.links-button:hover {
+    background-color: hsl(75, 94%, 57%);
+    color: black;
+    transition: 250ms;
+}
+
+
+
