@@ -1,0 +1,60 @@
+body {
+    background-color: hsl(47, 88%, 63%);
+    margin: auto;
+    width: 100%
+}
+
+.card {
+    margin: auto;
+    width: 20%;
+    background-color: hsl(0, 0%, 100%);
+    padding: 40px;
+    border-radius: 15px;
+    border: solid 2px;
+    margin-top: 128px;
+    margin-bottom: 128px;
+    box-shadow: 10px 10px 0px black;
+}
+
+.div-img {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    width: 100%;
+    padding-bottom: 20px;
+}
+
+img {
+    width: 100%;
+    border-radius: 15px;
+}
+
+.yellow-btn {
+    margin-top: 10px;
+    display: inline;
+    background-color: hsl(47, 88%, 63%);
+    padding-block: 5px;
+    padding-inline: 10px;
+    font-weight: 600;
+    border-radius: 5px;
+}
+
+.text-box p {
+    font-size: 18px;
+}
+.profile {
+    margin: auto;
+    display: flex;
+    width: 40%;
+    margin-left: 0;
+}
+.profile img {
+    margin: auto;
+    width: 20%;
+    margin-left: 0;
+    margin-right: 10px;
+}
+
+.pf-name {
+    font-size: 14px;
+}
