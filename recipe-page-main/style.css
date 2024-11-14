@@ -92,3 +92,7 @@ table thead th {
 .ignore {
     border-bottom: 0; 
 }
+
+hr {
+    opacity: 30%;
+}
