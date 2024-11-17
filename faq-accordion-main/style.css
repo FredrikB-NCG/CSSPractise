@@ -1,0 +1,130 @@
+body {
+    background-color: hsl(275, 100%, 97%);
+    margin: auto;
+    width: 100%
+}
+
+ .img-header {
+    width: 100%;
+ }
+
+ .white-box {
+    position: relative;
+    z-index: 15;
+    margin: auto;
+    width: 100%;
+    margin-bottom: 248px;
+    width: 30%;
+    background-color: white;
+    margin-top: -150px;
+    border-radius: 10px;
+    padding: 40px;
+    box-shadow:
+  0.5px 0.9px 3.5px rgba(0, 0, 0, 0.059),
+  1.3px 2.3px 8.9px rgba(0, 0, 0, 0.084),
+  2.7px 4.8px 18.3px rgba(0, 0, 0, 0.106),
+  5.5px 9.9px 37.6px rgba(0, 0, 0, 0.131),
+  15px 27px 103px rgba(0, 0, 0, 0.19)
+;
+ }
+
+.star-faq {
+    display: flex;
+    margin: auto;
+    align-items: flex-start;
+    justify-content: first baseline;
+    margin-bottom: 20px;
+}
+
+.img-star {
+    margin: auto;
+    margin-left: 0;
+    margin-right: 20px;
+    width: 6%;
+}
+
+.star-faq h1 {
+    margin-left: 0;
+}
+
+h1 {
+    font-size: 45px;
+}
+
+h2 {
+    font-size: 18px;
+}
+
+hr {
+    opacity: 6%;
+    margin-block: 20px;
+}
+
+/* Dropdown Button */
+
+.dropbtn {
+    display: flex;
+    width: 100%;
+    margin: auto;
+    justify-content: flex-start;
+    align-items: center;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 18px;
+    border: none;
+    background-color: white;
+}
+
+/* Dropdown button */
+.dropbtn:hover  {
+    color: hsl(293, 39%, 53%);
+}
+
+.dropdown {
+    width: 100%;
+}
+
+.dropdown-content {
+    display: none;
+    z-index: 16;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+}
+
+.dropdown-content p {
+    color: rgba(0, 0, 0, 0.486);
+    text-decoration: none;
+    display: block;
+    font-size: 17px;
+    margin-left: 4px;
+  }
+
+
+.show {
+    display: contents; }
+
+
+/* Drop down toggle image */
+
+
+
+/* Hide checkbox */
+
+/*
+input.image-toggler {
+    margin-right: 0;
+    display: none;
+  }
+  
+  img.full {
+    display: none;
+  }
+  
+  input.image-toggler:checked + img.thumbnail {
+    display: none;
+  }
+  
+  input.image-toggler:checked + img.thumbnail + img.full {
+    display: block;
+  }  */
